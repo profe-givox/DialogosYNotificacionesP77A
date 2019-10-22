@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInfo"
+        android:onClick="btnInfo_click"
+        android:text="Dialogo Simple"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnList"
+        android:onClick="btnList_click"
+        android:text="Dialogo de lista"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheckList"
+        android:onClick="btnCheckList_click"
+        android:text="Dialogo de CheckList"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNotificacion"
+        android:onClick="btnNotificacion_click"
+        android:text="Notificacion"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTimePicker"
+        android:text="Time Picker"
+        android:onClick="btnTimePicker_click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDatePicker"
+        android:text="Date Picker"
+        android:onClick="btnDatePicker_click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificacion  simple"
+        android:onClick="btnNS_click"
+        android:id="@+id/btnNS"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar alarma"
+        android:onClick="btnAL_click"
+        android:id="@+id/btnAM"
+
+
+        />
+
+</LinearLayout>
